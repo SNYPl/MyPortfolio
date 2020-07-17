@@ -94,6 +94,7 @@ video {
     width:100%;
     vertical-align: middle;
     z-index:1000;
+    opacity: 0.8;
 }
 
 .navigation a {
@@ -110,7 +111,8 @@ video {
    font-weight: normal;
    letter-spacing: 2px;
    padding-left:2px;
-   
+   opacity:1;
+   font-weight: 550;
 }
 
 .navigation li:last-child {
@@ -120,7 +122,8 @@ video {
 .navigation li {
   list-style: none;
   display: inline-block;
-  margin:45px 25px 15px 15px;
+  margin:38px 25px 12px 15px;
+  opacity:1;
 }
 
 .navigation a:hover {

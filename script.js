@@ -1,10 +1,18 @@
 
 
 
+window.addEventListener("scroll",function() {
 
-document.querySelector(".smoothScroll").addEventListener("click", function () {
-console.log("true")
-// document.getElementById("rotate").classList.toggle("csstransforms3d");
+
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.querySelector(".navigation").style.backgroundColor = "#4dc47d";
+        document.querySelector(".navigation a").style.marginBottom = "30px";
+      } else {
+        document.querySelector(".navigation").style.backgroundColor = "";
+      }
+
+console.log("true");
+
 
 
 });
