@@ -4,6 +4,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
 }
 
 
@@ -11,6 +12,7 @@ body {
   background: #ffffff;
   font-family: 'Source Sans Pro', sans-serif;
   overflow-x: hidden;
+ 
 }
 
 html, body {
@@ -18,9 +20,6 @@ html, body {
   height: 100%;
 }
 
-/*---------------------------------------
-  TYPOGRAPHY              
------------------------------------------*/
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 300;
@@ -38,17 +37,6 @@ h2 {
   margin-top: 0;
 }
 
-h3 {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 32px;
-}
-
-h4 {
-  color: #505050;
-  font-size: 18px;
-  line-height: 28px;
-}
 
 p {
   color: #757575;
@@ -78,6 +66,7 @@ display:flex;
 width:100%;
 justify-content: center;
 overflow: hidden;
+
 }
 
 video {
@@ -110,16 +99,44 @@ video {
 .navigation a {
   
     text-decoration: none;
-    color:#fff;
+    color: #f9f9f9;
+    letter-spacing: 0.5px;
     margin-right:18px;
-    padding:35px 15px 15px 15px;
    display: inline-block;
-   font-size:14px;
+   font-size:15px;
+   padding-bottom:4px;
+   transition: all ease-in-out 0.5s;
+   text-transform: uppercase;
+   font-weight: normal;
+   letter-spacing: 2px;
+   padding-left:2px;
+   
 }
 
-.navigation a:last-child {
-    margin-right:100px;
+.navigation li:last-child {
+    margin-right:90px;
 } 
+
+.navigation li {
+  list-style: none;
+  display: inline-block;
+  margin:45px 25px 15px 15px;
+}
+
+.navigation a:hover {
+  animation-name: animation;
+  animation-duration: 1s;
+  border-bottom:1px solid #fff;
+  background-color: transparent;
+  transform:scale(1.1);
+}
+
+@keyframes animation {
+  from {border-bottom-color: rgba(0, 255, 0, 0);}
+  to {border-bottom-color: rgba(145, 233, 233, 0.465);}
+} 
+
+
 
 .container h1 {
   color:#fff;
@@ -151,7 +168,7 @@ video {
   perspective: 1000px;
   color: #ffffff;
   font-weight: normal;
- 
+  transition: all ease-in-out 2s;
 }
 
 
@@ -166,8 +183,8 @@ video {
   padding: 0 25px;
   background: #4dc47d;
   border-radius: 1px;
-  transition: transform 0.5s;
-
+  transition: transform 0.6s ease-in-out;
+  transition: all ease-in-out 2s;
   
 }
 
@@ -178,5 +195,7 @@ video {
 .section-btn button:focus span {
   background-color:#000;
   transform: scale(1.2);
+  transition: all ease-in-out 0.6s;
 } 
+
 
