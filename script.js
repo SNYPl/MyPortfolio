@@ -9,7 +9,7 @@ window.addEventListener("scroll",function() {
 
           item.style.marginRight = "18px";
           item.style.paddingTop = "12px"
-          
+       
       });
        
        
@@ -36,8 +36,8 @@ window.addEventListener("scroll",function() {
 window.addEventListener("scroll",function() {
   let links =  document.querySelectorAll(".navigation a");
 
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-       
+    if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+       console.log("true");
           
       
        
