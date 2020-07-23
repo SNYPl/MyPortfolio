@@ -6,10 +6,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <title>My Portfolio</title>
 </head>
 <body>
    
+    <div class="preloader">
+        <div class="spinner">
+             <span class="sk-inner-circle"></span>
+        </div>
+   </div>
 
 <header id="header">
     <div class="overlay"></div>
@@ -59,7 +66,7 @@
     <div class="about-info">
         <img src="img/mypic.jpg" alt="My Image">
         <p> 
-        Hello! My name is David. I'm 25 years old and I live in Tbilisi, Georgia.
+        Hello! My name is David. I'm 26 years old and I live in Tbilisi, Georgia.
          I'm a junior web programmer. I specialize in front-end development and currently have a Mark-uper experience.
          My goal is to develop myself further and become front-end and a full stack developer.
          I am responsible and dedicated person. I invest a lot of my time in developing my skills and gaining new skills. I guarantee you will enjoy working with me.
@@ -198,9 +205,49 @@
 </main>
 
 <footer>
+<div class="talk">
+    <h2>Talk to me !</h2>
+
+</div>
+   
+
+    <div class="footer-section">
+        <div class="touch">
+            <h3>Keep in touch:</h3>
+            <a href="tel:+995-555-52-82-26">+995-555-52-82-26</a>
+            <a href="mailto:snypisia@gmail.com">snypisia@gmail.com</a>
+            <p>Tbilisi, Georgia</p>
+        </div>
+
+        <div class="soc-networks">
+            <h3>Social Network:</h3>
+          
+
+          <div class="container-soc">
+                <a href="https://www.facebook.com/profile.php?id=100011208286719&ref=bookmarks" target="_blank">
+                    <div class="div1"><img src="img/facebook.svg" alt="Facebook"></div>
+                </a>
+            
+
+           
+                <a href="https://github.com/SNYPl" target="_blank">
+                    <div class="div1"><img src="img/github.svg" alt="Github"></div>
+                </a>
+            
+
+           
+                <a href="mailto:snypisia@gmail.com" target="_blank">
+                    <div class="div1"><img src="img/email.svg" alt="Email"></div>
+                </a>
+            
+                <a href="https://www.linkedin.com/in/daviti-metreveli-21b9b5171/" target="_blank">
+                    <div class="div1"><img src="img/linkedin.svg" alt="Email"></div>
+                </a>
+            </div>
+        </div>
 
 
-
+    </div>
 
 
 
@@ -212,5 +259,11 @@
 </footer>
 
 <script src="script.js"></script>
+<script>
+    "use strict";
+    $(function() {
+        $('.preloader').delay(200).slideUp('slow'); // set duration in brackets    
+    })
+</script>
 </body>
 </html>
