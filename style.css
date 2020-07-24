@@ -692,9 +692,8 @@ footer {
   }
 
   .about-info p {
-    font-size: 140%;
-
-    width: 55%;
+   font-size: 140%;
+  width: 55%;
 
   }
 
@@ -702,10 +701,12 @@ footer {
   .project-info {
     padding: 30px;
   }
-
+  .projects {
+   margin:0 15px;
+}
 
   .project-section {
-    grid-template-columns: repeat(auto-fill, minmax(1fr, 300px));
+    grid-template-columns: repeat(auto-fill, minmax(1fr, 250px));
     grid-template-rows: auto;
     justify-content: space-around;
     height: 80vh;
@@ -874,8 +875,8 @@ footer {
     }
 
     .project-section {
-      grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
-      grid-gap: 12px;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 10px;
       justify-content: center
     }
 
@@ -890,21 +891,85 @@ footer {
 
   }
 
+
+
+
+
   @media (max-width: 412px) {
     .project-section {
-      grid-template-columns: repeat(auto-fit, minmax(150px, 230px));
-      grid-gap: 15px;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      grid-gap: 5px;
+      padding: 0 5px
 
-
+    }
+    .project-section {
+      height: 180%;
+      padding: 0 5px;
+    }
+    .projects {
+      margin: 10px 0;
     }
 
 
+    .project-info h1 {
+      font-size: 20px;
+    }
+
+    .touch h3 {
+      font-size: 13px;
+      
+    }
+
+    .touch a {
+      font-size: 9px;
+    }
+
+    .touch p {
+      font-size:7px;
+    }
+    .footer-section {
+      width: 98%;
+    }
+
+    .talk h2 {
+      font-size: 30px;
+    }
+
+    .project-title h2 {
+      font-size: 32px;
+
+    }
+
+    .soc-networks h3 {
+      font-size: 13px;
+      text-align: center;
+    }
+
+
+    .soc-networks img {
+      width: 20px;
+      
+
+    }
+
+    .container-soc a {
+      padding:0;
+     
   }
+  }
+
+
+
+
 
   @media (min-width: 1450px) {
     .project-section {
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 3ch auto minmax(1fr, 1fr);
+    }
+
+    .projects {
+      margin: 30px 5px;
     }
 
   }
