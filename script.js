@@ -36,7 +36,7 @@ window.addEventListener("scroll",function() {
 window.addEventListener("scroll",function() {
   let links =  document.querySelectorAll(".navigation a");
 
-    if (document.body.scrollTop > 750 &&  document.body.scrollTop < 1400 || document.documentElement.scrollTop > 750 && document.documentElement.scrollTop < 1400 ) {
+    if (document.body.scrollTop > 600 &&  document.body.scrollTop < 1400 || document.documentElement.scrollTop > 750 && document.documentElement.scrollTop < 1400 ) {
                
       document.querySelector(".bar .html1").style.width="88%";
       document.querySelector(".bar .css").style.width="85%";
