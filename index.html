@@ -23,10 +23,10 @@
 
    
         <nav class="navigation">
-       <li > <a href="#header"  >HOME</a></li> 
-       <li ><a href="#about" >ABOUT</a></li>
-       <li > <a href="#projects" >PROJECTS</a></li>
-       <li ><a href="#header" >CONTACT</a></li>
+       <li > <a href="#header" class="smoothScroll" >HOME</a></li> 
+       <li ><a href="#about"  class="smoothScroll">ABOUT</a></li>
+       <li > <a href="#projects" class="smoothScroll">PROJECTS</a></li>
+       <li ><a href="#contact" class="smoothScroll">CONTACT</a></li>
         </nav>
        
 
@@ -42,8 +42,8 @@
         <h1>Hi, I'm David.I specialize in mark-up & front-end development </h1>
 
         <ul class="section-btn">
-            <a href="#about" class="smoothScroll" id="rotate">
-                <span data-hover="Discover More">Discover More</span>
+            <a href="#about"  id="rotate" class="smoothScroll">
+                <span data-hover="Discover More" >Discover More</span>
             </a>
        </ul>
        </div>
@@ -204,7 +204,7 @@
 
 </main>
 
-<footer>
+<footer id="contact">
 <div class="talk">
     <h2>Talk to me !</h2>
 
@@ -255,15 +255,9 @@
 
 
 
-
 </footer>
 
 <script src="script.js"></script>
-<script>
-    "use strict";
-    $(function() {
-        $('.preloader').delay(200).slideUp('slow'); // set duration in brackets    
-    })
-</script>
+<script src="jquery.js"></script>
 </body>
 </html>
