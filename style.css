@@ -683,7 +683,7 @@ footer {
 }
 .toggler:hover {
   cursor: pointer;
-  
+  outline: none;
  
 }
 .toggler-btn {
@@ -703,7 +703,7 @@ footer {
 }
 
 .forHeight {
-  height:140px;
+  height:140px !important;
 }
 
 ::-webkit-scrollbar {
