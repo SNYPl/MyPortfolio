@@ -58,3 +58,11 @@ window.addEventListener("scroll",function() {
 
 
 });
+
+
+document.querySelector(".toggler").addEventListener("click", function() {
+  document.querySelector(".navigation").classList.toggle("forHeight");
+
+
+
+});
