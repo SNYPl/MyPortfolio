@@ -765,12 +765,12 @@ footer {
   }
 
   .project-section {
-    grid-template-columns: repeat(auto-fill, minmax(1fr, 250px));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 380px));
     grid-template-rows: auto;
     justify-content: space-around;
     height: 80vh;
     padding-top: 50px;
-    grid-gap: 25px 100px;
+   grid-gap: 25px 0;
 
   }
 
@@ -966,7 +966,7 @@ footer {
     grid-template-rows:250px 250px 250px;
     grid-gap: 10px;
     justify-content: center;
-    height:130%;
+    height:110vh;
   }
 
   .projects {
@@ -1000,7 +1000,7 @@ footer {
     grid-template-rows: 200px 200px 200px;
     grid-gap: 5px;
     padding: 0 5px;
-     height: 110%;
+     height: 80vh;
   }
 
 
