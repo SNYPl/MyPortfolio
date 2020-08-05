@@ -701,7 +701,7 @@ footer {
 }
 
 .forHeight {
-  height: 140px !important;
+  height: 144px !important;
 }
 
 ::-webkit-scrollbar {
@@ -801,6 +801,10 @@ footer {
   .container h1 {
     font-size: 35px;
 
+  }
+
+  .forHeight li:last-child {
+    padding-bottom:10px;
   }
 
   .about-info {
