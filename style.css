@@ -958,8 +958,10 @@ footer {
 
   .project-section {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows:250px 250px 250px;
     grid-gap: 10px;
-    justify-content: center
+    justify-content: center;
+    height:130%;
   }
 
   .projects {
@@ -990,14 +992,12 @@ footer {
 @media (max-width: 412px) {
   .project-section {
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-rows: 200px 200px 200px;
     grid-gap: 5px;
-    padding: 0 5px
+    padding: 0 5px;
+     height: 100%;
   }
 
-  .project-section {
-    height: 180%;
-    padding: 0 5px;
-  }
 
   .projects {
     margin: 10px 0;
@@ -1053,8 +1053,12 @@ footer {
 }
 
 
+@media (max-width: 296px) {
+  .project-section {
+    grid-template-rows:auto;
+  }
 
-
+}
 
 @media (min-width: 1450px) {
   .project-section {
