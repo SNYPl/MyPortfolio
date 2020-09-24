@@ -258,7 +258,10 @@ main {
   border-radius: 45%;
   height: auto;
   margin-left: 5%;
-  
+  cursor: pointer;
+}
+.about-info img:hover {
+  transform: scale(1.2);
 }
 
 .about-info p {
