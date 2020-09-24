@@ -33,31 +33,31 @@ window.addEventListener("scroll",function() {
 
 
 
-window.addEventListener("scroll",function() {
-  let links =  document.querySelectorAll(".navigation a");
+// window.addEventListener("scroll",function() {
+//   let links =  document.querySelectorAll(".navigation a");
 
-    if (document.body.scrollTop > 620 &&  document.body.scrollTop < 1550 || document.documentElement.scrollTop > 620 && document.documentElement.scrollTop < 1550 ) {
+//     if (document.body.scrollTop > 620 &&  document.body.scrollTop < 1550 || document.documentElement.scrollTop > 620 && document.documentElement.scrollTop < 1550 ) {
                
-      document.querySelector(".bar .html1").style.width="88%";
-      document.querySelector(".bar .css").style.width="85%";
-      document.querySelector(".bar .sass").style.width="84%";
-      document.querySelector(".bar .js").style.width="35%";
-      document.querySelector(".bar .bootstrap").style.width="60%";
+//       document.querySelector(".bar .html1").style.width="88%";
+//       document.querySelector(".bar .css").style.width="85%";
+//       document.querySelector(".bar .sass").style.width="84%";
+//       document.querySelector(".bar .js").style.width="35%";
+//       document.querySelector(".bar .bootstrap").style.width="60%";
        
        
-      } else {
+//       } else {
                         
-       document.querySelector(".bar .html1").style.width="0%";
-       document.querySelector(".bar .css").style.width="0%";
-      document.querySelector(".bar .sass").style.width="0%";
-      document.querySelector(".bar .js").style.width="0%";
-      document.querySelector(".bar .bootstrap").style.width="0%";
+//        document.querySelector(".bar .html1").style.width="0%";
+//        document.querySelector(".bar .css").style.width="0%";
+//       document.querySelector(".bar .sass").style.width="0%";
+//       document.querySelector(".bar .js").style.width="0%";
+//       document.querySelector(".bar .bootstrap").style.width="0%";
 
         
-      }
+//       }
 
 
-});
+// });
 
 
 document.querySelector(".toggler").addEventListener("click", function() {

@@ -252,12 +252,13 @@ main {
 }
 
 .about-info img {
-  width: 28%;
+  width: 35%;
   margin-right: 30px;
-  padding: 20px;
-  border-radius: 50%;
+  padding: 5px;
+  border-radius: 45%;
   height: auto;
   margin-left: 5%;
+  
 }
 
 .about-info p {
